@@ -1,0 +1,201 @@
+/* Ignore following classes */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeeee;
+}
+
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+#greece {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#greecetext {
+  color: red;
+  font-size: 30px;
+}
+.insideborder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possible case to build you flags, you will have to continue to add your own*/
+
+.centerimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eagle {
+  height: 100px;
+  width: 100px;
+}
+.greece {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.horiz {
+  display: flex;
+  flex-direction: row;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+  height: 33.3%;
+}
+
+.threehoriz {
+  width: 33.3%;
+}
+
+.fourhoriz {
+  width: 25%
+}
+.fourvert {
+  height: 25%;
+}
+.twofivesquare {
+  width: 40%;
+  height: 40%;
+}
+
+.fivevert {
+  height: 20%;
+  width: 66.7%;
+}
+
+.fivehoriz {
+  width: 20%;
+}
+
+.sixhoriz {
+  width: 16.7%;
+}
+.sixvert {
+  height: 16.7%;
+}
+.ninevert {
+  height: 11.1%;
+}
+.skinny {
+  height: 17.5%;
+}
+
+.fat {
+  height: 30%;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+}
+
+.tophalf {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 55.6%;
+  flex-grow: 2;
+}
+
+.bottomhalf {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  height: 133px;
+  width: 100%;
+}
+.corner {
+  height: 167px;
+  width: 166.7px;
+}
+
+.cross {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.left {
+  align-self: flex-start;
+}
+.right {
+  align-self: flex-end;
+}
+.stripes {
+  display: flex;
+  flex-direction: row;
+  width: 66.7%
+}
+.fullwidth {
+  width: 100%;
+}
+/* Colors/ Feel free to add your own! */
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: #fff;
+}
